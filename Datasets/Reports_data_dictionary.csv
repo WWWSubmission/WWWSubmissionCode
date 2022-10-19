@@ -1,0 +1,19 @@
+Variable,Data Type,Definition
+PseudoID,int64,ID number of the original report of a vulnerability
+ReportID,int64,ID number of the duplicate report of a vulnerability
+Opened,int64,Time a report is opened (Timestamp)
+Closed,int64,Time a report is closed (Timestamp)
+Summary,str,Summary of a report
+Product,str,Product type
+Reporter,str,Original reporter
+Status,str,Status of of the report
+SecuritySeverity,str,Criticality of the report
+Component,"list (Chromium), str (Firefox)",Component affected by a report
+CVE,str,CVE 
+BroadType,str,Weakness Type
+IsExternal,int64 (0/1),External=1
+IsStable,int64 (0/1),Stable=1
+Language,list,Programming languages 
+IsExploited,int64 (0/1),exploited=1
+FirstReported,int64,Time of the first report of a vulnerability
+FixedTimestamp,int64,Time a report is fixed (Timestamp)

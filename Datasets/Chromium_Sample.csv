@@ -1,0 +1,255 @@
+PseudoID,ReportID,Opened,Closed,Summary,Product,Reporter,Status,SecuritySeverity,Component,CVE,BroadType,IsExternal,IsStable,Language,IsExploited,FirstReported,FixedTimestamp
+1120924,1120924,1598123270,1598375510,webcodecs_video_decoder_fuzzer: Heap-use-after-free in blink::VideoDecoderBroker::OnDecodeDone,,ClusterFuzz,Verified,High,"['Blink>Internals>Modularization', 'Blink>Internals', 'Blink']",,,0,0,"['HTML', 'C++']",0,1598123270,1598375510
+677055,677055,1482792023,1482917292,Bad-cast to icu_58::DateFormat from icu_58::DecimalFormat;__RT_impl_Runtime_InternalDateFormatToParts;v8::internal::Runtime_InternalDateFormatToParts,,ClusterFuzz,Fixed,High,"['Blink>JavaScript', 'Blink>JavaScript>Runtime', 'Blink>JavaScript>Internationalization', 'Blink']",,,0,0,"['C++', 'JS']",0,1482792023,1482917292
+148378,148378,1347369291,1347463634,[LangFuzz] Crash due to invalid free in v8::internal::Runtime_RegExpExecMultiple,,decoder...@gmail.com,Fixed,High,"['Blink>JavaScript', 'Internals', 'Blink']",,,1,0,,0,1347369291,1347466075
+75210,80086,1303338804,1304989267,renderer crash @ GPOS_Do_Glyph_Lookup (in harfbuzz),,nirnimesh@chromium.org,Duplicate,Medium,,,,0,0,,0,1294767839,1338564649
+920115,920147,1547028726,1547052119,Security DCHECK failure: it != clients_.end() in css_image_generator_value.cc,,tyson.w....@gmail.com,Duplicate,High,"['Blink>CSS', 'Blink']",,,1,0,"['HTML', 'C++']",0,1547014731,1547547217
+594383,594383,1457840822,1458078930,Security: UXSS via window.open() via file:// pages,,chromium...@gmail.com,Fixed,Medium,"['UI>Browser', 'UI', 'UI>Browser>Navigation']",,,1,0,"['HTML', 'C++']",0,1457840822,1458078789
+390944,427112,1414196876,1414444903,Use-of-uninitialized-value in vp3_h_loop_filter_c,,ClusterFuzz,Duplicate,Medium,"['Internals>Media>Codecs', 'Internals', 'Internals>Media']",,,0,1,['C++'],0,1404316635,-1
+964002,964002,1558030210,1559072577,Security: Latin KRA homograph,,palmer@chromium.org,Fixed,Medium,"['UI>Browser', 'UI', 'UI>Browser>Omnibox']",,,0,1,['C++'],0,1558030210,1558140565
+793285,794523,1513169767,1513619798,Use-of-uninitialized-value in sk_unpremul,,attek...@gmail.com,Duplicate,Medium,"['Internals>Skia', 'Internals']",,,1,0,['C++'],0,1512739555,1513126620
+311036,311036,1382609214,1382655077,strongswan: CVE-2013-6075,,benchan@chromium.org,Verified,,"['OS', 'OS>Systems>Network', 'OS>Systems']",,,0,0,,0,1382609214,1392142265
+801105,801105,1515668412,1515703776,CrOS: Vulnerability reported in media-libs/tiff,,vomit.go...@appspot.gserviceaccount.com,Fixed,,"['OS', 'OS>Packages']",,,0,0,,0,1515668412,1515703776
+973136,973136,1560277419,1560351611,Crash in _platform_memmove$VARIANT$Nehalem,,ClusterFuzz,Verified,Medium,"['Internals>GPU', 'Internals>GPU>Dawn', 'Internals']",,,0,0,,0,1560277419,1560351611
+1136714,1136714,1602212953,1603438052,Incorrect security UI at screen share API,,zyzen...@gmail.com,Fixed,Medium,,CVE-2020-16032,Improper Restriction of Rendered UI Layers or Frames (4.3),1,1,['C++'],0,1602212953,1603438051
+1184440,1184440,1614808890,1614871560,dawn_wire_server_and_frontend_fuzzer: Abrt in spirv_cross::Compiler::get_declared_struct_size_runtime_array,,ClusterFuzz,WontFix,,"['Internals>GPU', 'Internals>GPU>Dawn', 'Internals']",,,0,0,,0,1614808890,-1
+907669,907669,1542840481,1542904826,DCHECK failure in !has_error() implies !next_arrow_formals_parenthesized_ in parser-base.h,,ClusterFuzz,Verified,High,"['Blink>JavaScript>Parser', 'Blink>JavaScript', 'Blink']",,,0,0,"['C++', 'JS']",0,1542840481,1542891684
+765495,765495,1505435691,1506166398,Security:  heap-use-after-free ScriptProcessorHandler::FireProcessEvent,,om...@krash.in,Verified,High,"['Blink>WebAudio', 'Blink']",CVE-2017-5129,Expired pointer dereference,1,1,['C++'],0,1505435691,1506166398
+1143027,1143027,1603840454,1604395938,i think computer has been compromised with added codes,,trama...@gmail.com,WontFix,,,,,1,0,,0,1603840454,-1
+1161806,1161806,1608887545,1618235883,potential uaf in webmidi,,wxhu...@gmail.com,Fixed,Medium,"['Blink>WebMIDI', 'Blink']",CVE-2021-21213,Expired pointer dereference,1,1,['C++'],0,1608887545,1611034492
+951438,951438,1554916126,1555165832,DCHECK failure in GetReadOnlyRoots().fixed_cow_array_map() != map() in fixed-array-inl.h,,decoder...@gmail.com,Verified,High,"['Blink>JavaScript', 'Blink']",,,1,0,"['C++', 'JS']",0,1554916126,1555098282
+1203590,1203590,1619593518,1621508548,container-overflow in dom_distiller::TaskTracker::NotifyViewersAndCallbacks,,dhvee...@microsoft.com,Fixed,High,"['UI>Browser', 'UI>Browser>ReaderMode', 'UI']",CVE-2021-30518,Memory buffer bounds error,1,1,['C++'],0,1619593518,1619711973
+602385,602385,1460401532,1460404553,Security: False site integration on browser history ,,rooted.c...@gmail.com,WontFix,,,,,1,0,,0,1460401532,-1
+929622,929622,1549540866,1549561666,CVE-2016-10741 CrOS: Vulnerability reported in Linux kernel,,vomit...@appspot.gserviceaccount.com,WontFix,Medium,,CVE-2016-10741,Race condition,0,0,,0,1549540866,-1
+1092308,1092308,1591598209,1591906274,uaf in extensions,,cdsrc...@gmail.com,Fixed,High,"['Platform>Extensions', 'Platform', 'Platform>Extensions>API']",CVE-2020-6509,Expired pointer dereference,1,1,['C++'],0,1591598209,1591906274
+704555,751398,1501656243,1501689470,Use-of-uninitialized-value in gdk_rectangle_intersect,,attek...@gmail.com,Duplicate,Low,['UI'],,,1,0,,0,1490280583,-1
+1021439,1021439,1572944190,1572984315,Security:  Elimination of Password Storage  in chrome browser,,joelanan...@kgkite.ac.in,WontFix,,,,,1,0,,0,1572944190,-1
+960751,960751,1557316822,1557511432,CVE-2018-20836 CrOS: Vulnerability reported in Linux kernel,,vomit...@appspot.gserviceaccount.com,WontFix,High,,CVE-2018-20836,Race condition,0,0,,0,1557316822,-1
+82546,82546,1305300901,1305830490,Stale pointer in WebCore::RenderBlock::marginBeforeForChild,,martybar...@gmail.com,Fixed,High,['Blink'],CVE-2011-1804,Improper input validation,1,1,,0,1305300901,-1
+319190,319190,1384420752,1385075324,console._commandLineAPI can be used by any website as long as you're actively typing in the console,,moritz.r...@gmail.com,WontFix,Medium,['Blink'],,,1,0,,0,1384420752,-1
+140647,140647,1344093513,1356018829,UNKNOWN in ogg_calc_pts,,infe...@chromium.org,Fixed,High,['Blink'],,,0,1,"['C++', 'C', 'asm']",0,1344093513,1344349962
+514759,514759,1438111056,1440108363,Use-of-uninitialized-value in vp3_h_loop_filter_c,,ClusterFuzz,Fixed,Medium,"['Internals', 'Internals>Media']",,,0,1,['C++'],0,1438111056,1440108363
+328202,328202,1386890194,1389627232,Security: v8: invalid overflow checks in Zone::NewExpand(),,tsepez@chromium.org,Fixed,Medium,"['Blink>JavaScript', 'Blink']",CVE-2014-1704,,0,1,,0,1386890194,1389627232
+607497,607497,1461841345,1464790315,Security: possibility to send synchronous XMLHttpRequest withCredentials = true,,hardko...@gmail.com,WontFix,Low,"['Blink>Network', 'Blink>Network>XHR', 'Blink>SecurityFeature', 'Blink']",,,1,1,,0,1461841345,1491510126
+602185,600968,1459939184,1462819636,Use-of-uninitialized-value in vorbis_header,,ClusterFuzz,Duplicate,High,"['Internals', 'Internals>Media']",,,0,1,['C'],0,1458288684,1463193195
+1228447,1228447,1626125330,1626219728,"Security: Logout via Lock Screen destroys data (doesn't call onSaveInstanceState, if available in ChromeOS)",,hesse...@googlemail.com,WontFix,,,,,1,0,,0,1626125330,-1
+1023183,1023212,1573416596,1574454290,zucchini_disassembler_elf_fuzzer: CHECK failure: region.end() <= image.end() in rel32_finder.cc,,ClusterFuzz,Duplicate,Medium,"['Internals>Installer', 'Internals>Installer>Diff', 'Internals']",,,0,0,['C++'],0,1573390744,1574715807
+793690,909624,1543398199,1543429382,Security: Stored XSS in Bookmark button,,muaz.wor...@gmail.com,Duplicate,,"['UI>Browser>Bookmarks', 'UI>Browser', 'UI']",,,1,0,,0,1512949251,-1
+1153442,1153442,1606592479,1606930260,DCHECK failure in UseScratchRegisterScope{this}.CanAcquire() in liftoff-assembler-arm.h,,ClusterFuzz,Verified,High,"['Blink>JavaScript>WebAssembly', 'Blink>JavaScript', 'Blink']",,,0,1,['JS'],0,1606592479,1606930259
+1151248,1151248,1605870977,1605904910,Crash in hsw::load_NUMBER_dst,,ClusterFuzz,Verified,Medium,"['Internals>Skia', 'Internals']",,,0,0,,0,1605870977,1605904909
+498954,506087,1435737578,1435765282,Heap-use-after-free in content::BrowserPlugin::~BrowserPlugin,,ClusterFuzz,Duplicate,High,,,,0,0,,0,1433964103,1434991894
+1125862,1125862,1599507490,1599510548,Big allocation bug could cause Deny of service attack.,,slei....@gmail.com,WontFix,,,,,1,0,,0,1599507490,-1
+964675,964675,1558201330,1558204626,Heap-use-after-free in scoped_refptr<base::SingleThreadTaskRunner>::scoped_refptr,,ClusterFuzz,Verified,High,"['Internals>Core', 'Internals']",,,0,0,,0,1558201330,1558204626
+740877,740877,1499769223,1499775583,Security: Chrome Password manager is enabled in Chrome incognito mode,,bhuvans...@gmail.com,WontFix,,"['UI>Browser', 'UI', 'UI>Browser>Passwords']",,,1,0,,0,1499769223,-1
+1197199,1197199,1617905816,1621529141,gpu_raster_swangle_passthrough_fuzzer: Heap-use-after-free in libvk_swiftshader.so,,ClusterFuzz,Fixed,High,"['Internals>GPU', 'Internals>GPU>ANGLE', 'Internals']",,,0,0,,0,1617905816,1621529141
+557800,557800,1447864160,1447945302,Heap-use-after-free in autofill::FormStructure::ParseQueryResponse,,ClusterFuzz,Fixed,High,"['UI>Browser', 'UI>Browser>Autofill', 'UI']",,,0,0,['C++'],0,1447864160,1447945302
+850003,856167,1529934768,1530290019,SEGV_MAPERR 000000000038 in in operator* /home/cowboy/chromium/src/out/chrome_asan_shared/../../base/memory/scoped_refptr.h:215:13,,cdsrc...@gmail.com,Duplicate,,"['Blink>WebAudio', 'Blink']",,,1,0,,0,1528272309,-1
+896117,896117,1539747143,1539795282,Bad-cast to pdfium::base::PartitionRootGeneric from invalid vptr in FPDF_InitLibraryWithConfig,,ClusterFuzz,Verified,High,"['Internals>Plugins>PDF', 'Internals>Plugins', 'Internals']",,,0,0,['C++'],0,1539747143,1539803127
+582694,582694,1454133419,1454136599,Heap-use-after-free in blink::LayoutMultiColumnFlowThread::skipColumnSpanner,,ClusterFuzz,WontFix,High,"['Blink>Layout', 'Blink']",,,0,0,,0,1454133419,-1
+920421,920421,1547074384,1548116004,Use-of-uninitialized-value in gpu::gles2::PassthroughGLDebugMessageCallback,,ClusterFuzz,Fixed,Medium,"['Internals>GPU', 'Internals>GPU>Internals', 'Internals']",,,0,0,,0,1547074384,1548116005
+1047074,1047074,1580363612,1580400197,DCHECK failure in Heap::IsLargeObject(obj) || Page::FromHeapObject(obj)->IsFlagSet(Page::SWEEP_TO_,,ClusterFuzz,Verified,High,"['Blink>JavaScript>GC', 'Blink>JavaScript', 'Blink']",,,0,0,,0,1580363612,1580400196
+633476,633476,1470110996,1470150552,Crash in unpack_RGBANUMBER,,ClusterFuzz,WontFix,Medium,"['Internals>GPU', 'Internals']",,,0,0,,0,1470110996,-1
+927766,927766,1549037560,1549067668,Website Able to Use Microphone When Blocked,,miqrogro...@gmail.com,WontFix,,"['Blink>PermissionsAPI', 'Blink']",,,1,0,,0,1549037560,-1
+32014,32014,1263252005,1263260186,[MD audit] [clipboard] Type confusion possible in Linux clipboard implementation,,scarybea...@gmail.com,Fixed,High,,,,0,0,['C++'],0,1263252005,1263259889
+536652,536652,1443412800,1443569356,Security: Disrupting the omnibox from the attacker's website.,,luan.her...@hotmail.com,Fixed,Medium,"['UI>Browser', 'Blink', 'UI', 'UI>Browser>Navigation']",CVE-2015-6782,Improper input validation,1,1,"['HTML', 'C++']",0,1443412800,1443569356
+1123379,1121460,1598336675,1599811014,Debug check failed: effect_edges > 0,,wxmp...@gmail.com,Duplicate,High,"['Blink>JavaScript', 'Blink']",,,1,0,"['C++', 'JS']",0,1598336675,1598884441
+709800,708975,1491476031,1491552334,Bad-cast to CXFA_ContainerLayoutItem from CXFA_FFSubForm;CXFA_LayoutPageMgr::MergePageSetContents;CXFA_LayoutPageMgr::SyncLayoutData,,ClusterFuzz,Duplicate,High,"['Internals>Plugins>PDF', 'Internals>Plugins', 'Internals']",,,0,0,,0,1491476031,1491818692
+959193,964222,1558074956,1558113829,Use-of-uninitialized-value in u_strlen_64,,ClusterFuzz,Duplicate,High,"['Internals>Storage', 'Internals']",,,0,1,['C'],0,1556894382,1558059364
+458776,458776,1423923084,1424739428,Heap-use-after-free in blink::WebPluginContainerImpl::scriptableObject,,ClusterFuzz,Fixed,High,,,,0,1,['C++'],0,1423923084,1424739428
+959031,959031,1556841100,1556909776,Crash in v8::internal::wasm::NativeModule::runtime_stub_entry,,ClusterFuzz,Verified,Medium,"['Blink>JavaScript>WebAssembly', 'Blink>JavaScript', 'Blink']",,,0,0,,0,1556841100,1556909776
+827039,827039,1522303986,1522704326,Heap-use-after-free in gpu::CommandBufferProxyImpl::DisconnectChannel,,ClusterFuzz,Fixed,High,"['Internals>Core', 'Internals']",,,0,0,,0,1522303986,1522704326
+1262112,1262112,1634822273,1634920515,dawn_wire_server_and_frontend_fuzzer.exe: Heap-use-after-free in dawn_native::AbslFormatConvert,,ClusterFuzz,Verified,High,"['Internals>Core', 'Internals']",,,0,0,,0,1634822273,1634940705
+524899,525859,1440720028,1440813539,Adobe Flash Player PSDKEventDispatcher Class Memory Corruption,,wengx...@gmail.com,Duplicate,High,"['Internals>Plugins>Flash', 'Internals>Plugins', 'Internals']",,,1,0,,0,1440574879,1445881806
+986201,986201,1563777320,1563818607,Chrome 75.0.3770 process crash,,evi1m0.bat@gmail.com,WontFix,,,,,1,0,,0,1563777320,-1
+242322,242322,1369085864,1369338162,Escalate access to browser internals,,daniel.z...@gmail.com,Fixed,Medium,"['Platform', 'Platform>DevTools']",CVE-2013-2855,Memory buffer bounds error,1,1,['C++'],0,1369085864,1369098062
+996123,996123,1566377579,1573844644,Maybe Use of Uninlitialized memory in CXFA_FFComboBox::OpenDropDownList,,merc....@gmail.com,Verified,,"['Internals>Plugins>PDF', 'Internals>Plugins', 'Internals']",,,1,0,['C++'],0,1566377579,1573867760
+980057,980057,1561949753,1572280242,Null-dereference READ in SkImage::getBackendTexture,,ClusterFuzz,Verified,,"['Internals>Skia', 'Blink>Canvas', 'Internals', 'Blink']",,,0,0,['C++'],0,1561949753,1568843848
+812769,871021,1533393461,1533675129,Security: fullscreen notification can be overlapped by 401 basic unauthorized dialog,,zxyrz...@gmail.com,Duplicate,Low,,CVE-2018-17476,,1,1,['C++'],0,1518726949,1535406773
+164111,164111,1354599030,1355179698,Heap-use-after-free in WebCore::RenderBlock::insertIntoTrackedRendererMaps,,infe...@chromium.org,WontFix,High,['Blink'],,,0,0,,0,1354599030,-1
+1115530,1115530,1597243457,1597424195,Security: [PRIORITY CRITICAL] Remote Code Execution using Chrome Plugin DOM Injection (Cross-Origin Read),,m...@iamsuhail.com,WontFix,Medium,"['Platform>Extensions', 'Platform']",,,1,1,,0,1597243457,-1
+808389,808389,1517569210,1517995160,CVE-2018-5344 CrOS: Vulnerability reported in Linux kernel,,vomit...@appspot.gserviceaccount.com,Verified,Medium,,,,0,1,['C'],0,1517569210,1517995072
+1314184,1314641,1649405269,1649432962,v8_wasm_code_fuzzer: Fatal error in expected: exception; got: no exception,,ClusterFuzz,Duplicate,High,"['Blink>JavaScript>WebAssembly', 'Blink>JavaScript', 'Blink']",,,0,0,"['C++', 'JS']",0,1649290518,1649456365
+1251004,1257914,1633673279,1633725348,Security DCHECK failure: IsA<Derived>(from) in casting.h,,ClusterFuzz,Duplicate,High,"['Blink>DOM', 'Blink>HTML>Details', 'Blink>HTML', 'Blink']",,,0,0,,0,1632081523,-1
+678518,678518,1483602381,1484042517,"Users can still access all saved passwords, bookmarks and all the auto fill information in all of the machines even after the user changes Google account password in one of the machines.",,amelsele...@gmail.com,WontFix,,"['UI>Browser', 'UI', 'UI>Browser>Passwords']",,,1,0,,0,1483602381,-1
+864286,864286,1531786726,1540338991,Stealing cross-origin video pixel with HLS,,s.h.h...@gmail.com,Fixed,Medium,"['Internals>Media>Video', 'Internals', 'Internals>Media']",,,1,1,,0,1531786726,1540338991
+680424,680424,1484210811,1484347066,Heap-use-after-free in cc::SurfaceManager::UnregisterSurfaceFactoryClient,,ClusterFuzz,WontFix,High,,,,0,0,,0,1484210811,-1
+1291844,1291844,1643339366,1643633714,CSP: whole directive is ignored when non-ascii value is given,,mdsse...@gmail.com,WontFix,Low,"['Blink>SecurityFeature', 'Blink']",,,1,1,,0,1643339366,-1
+321336,321336,1384900926,1384983795,LibXML ScopedXmlErrorFunc is global,,cdn@chromium.org,WontFix,Medium,['Internals'],,,0,1,,0,1384900926,-1
+378179,379857,1401736535,1401997819,Heap-use-after-free in cricket::ChannelManager::StopVideoCapture,,ClusterFuzz,Duplicate,High,"['Blink>WebRTC', 'Blink']",,,0,0,['C++'],0,1401258278,1401996327
+1092518,1092518,1591636098,1597348059,Security: OpenFileViaShell may open executables in the same directory with similar filenames unexpectedly ,,samue...@gmail.com,Fixed,Low,"['UI>Browser', 'UI>Browser>Downloads', 'UI']",CVE-2020-15988,,1,1,['C++'],0,1591636098,1597178378
+1021871,1021871,1573034077,1578276316,cras_rclient_message_fuzzer: Null-dereference READ in pthread_create,,ClusterFuzz,Fixed,High,,,,0,1,,0,1573034077,1578276315
+812451,812473,1518662752,1518690485,CHECK failure: !v8::internal::FLAG_enable_slow_asserts || (object->IsSmi()) in objects-inl.h,,ClusterFuzz,Duplicate,Medium,"['Blink>JavaScript>GC', 'Blink>JavaScript', 'Blink']",,,0,0,"['C++', 'JS']",0,1518654532,1518697646
+112443,112813,1328542525,1328545212,[Mac] Regular SSL certificate incorrectly displayed with EV color badge in OSX 10.7.3,,jkauf...@lodgeistics.net,Duplicate,Low,,,,1,1,['C++'],0,1328181373,1328568926
+721925,721925,1494625620,1494680616,Security: Linux kernel CVE-2017-7895,,andreyu@google.com,Archived,High,,,,0,0,,0,1494625620,1494680616
+608681,608681,1462275389,1462386923,"Security: Password can be made readable by changing text box type to ""text""",,dropboxs...@gmail.com,WontFix,,,,,1,0,,0,1462275389,-1
+670596,670596,1480668187,1481813187,Security: Same-name function declaration can overwrite window.location in Chrome 50+ ,,tyh1k....@gmail.com,Fixed,Low,"['Blink>Bindings', 'Blink>JavaScript', 'Blink>JavaScript>API', 'Blink']",,,1,1,['C++'],0,1480668187,1481812931
+918311,923748,1548021452,1548089482,"Container-overflow in spvtools::utils::SmallVector<unsigned int, 2ul>::operator",,ClusterFuzz,Duplicate,Medium,"['Internals>GPU', 'Internals>GPU>Internals', 'Internals']",,,0,1,,0,1546215919,1547914940
+1169049,1169049,1611225868,1616997245,Security: ARM GPU driver vulnerabilities,,mnissler@chromium.org,Fixed,High,"['Internals>GPU', 'Internals']",,,0,1,['C'],0,1611225868,1615521030
+143859,143859,1345514613,1356018723,Security: World-writable shared memory segments for X/Linux UI,,palmer@google.com,Verified,Low,['Internals'],CVE-2013-0838,Permission issues,0,1,['C++'],0,1345514613,1348504241
+51252,51257,1281001552,1281027548,crash,,kuz...@gmail.com,Duplicate,High,['Blink'],,,1,1,['C++'],0,1280998014,1284072609
+1026918,1026918,1574296165,1574452459,pdfium (XFA): invalid-vptr in CXFA_FFTextEdit::UpdateFWLData,,pdknsk@gmail.com,Fixed,High,"['Internals>Plugins>PDF', 'Internals>Plugins', 'Internals']",,,1,0,['C++'],0,1574296165,1574452459
+620750,620748,1466091372,1466573069,Crash in v8::internal::Heap::AllocateFillerObject,,ClusterFuzz,Duplicate,High,"['Blink>JavaScript>GC', 'Blink>JavaScript', 'Blink']",,,0,0,['JS'],0,1466091372,1466586664
+806278,806278,1516984682,1518641910,Use-of-uninitialized-value in update_current_folder_get_info_cb,,attek...@gmail.com,WontFix,Low,,,,1,1,,0,1516984682,-1
+661058,661058,1477972775,1478129657,Bad-cast to v8::Platform::TraceStateObserver from v8::tracing::TracingCategoryObserverImpl;blink::Node::mutationObserverRegistry;blink::Node::unregisterMutationObserver,,ClusterFuzz,Fixed,Medium,"['Blink>Internals', 'Blink']",,,0,0,,0,1477972775,1478129657
+1184209,1184209,1614774985,1616022855,Security: Issue 1161739 needs additional verification.,,rs.jo...@gmail.com,Fixed,Low,"['Blink>Animation', 'Blink']",,,1,1,"['HTML', 'C++']",0,1614774985,1615220523
+979094,979094,1561606431,1561826356,Stack-overflow in blink::ElementInnerTextCollector::ProcessNode,,ClusterFuzz,Verified,,,,,0,0,,0,1561606431,1561826356
+1072474,1072474,1587398231,1588576322,Security: cros_disks sshfs allows injection of symlinks,,mnissler@chromium.org,Fixed,Low,"['Platform>Apps>FileManager', 'Platform>Apps', 'Platform']",,,0,1,,0,1587398231,1588327170
+196174,196174,1363276937,1363625880,"ASSERTION FAILED: i < size(), UNKNOWN in WebCore::HTMLTreeBuilder::resetInsertionModeAppropriately",,aarya@google.com,Fixed,Medium,['Blink'],,,0,0,,0,1363276937,1363625880
+242582,242582,1369158574,1369343518,heap-buffer-overflow in memcmp() ,,slaw...@gmail.com,WontFix,Low,,,,1,1,,0,1369158574,-1
+92338,92338,1312996746,1312998085,"Security: iframe downloads file automatically, without asking user permission",,nir...@gmail.com,WontFix,,,,,1,0,,0,1312996746,-1
+912693,912693,1544129745,1544209820,Global-buffer-overflow in CreateECCBlock,,ClusterFuzz,Verified,High,"['Internals>Plugins>PDF', 'Internals>Plugins', 'Internals']",,,0,0,['C++'],0,1544129745,1544219018
+1309974,1309974,1648143624,1648255957,Security: Audio can be snooped by any process,,cujomalainey@google.com,WontFix,,"['OS', 'OS>Security']",,,0,0,,0,1648143624,-1
+678776,700035,1489078863,1489083386,"Security: CSP report contains URL fragment, standard says it should be stripped",,koczkata...@gmail.com,Duplicate,Medium,"['Blink>SecurityFeature', 'Blink']",CVE-2017-5075,Exposure of sensitive information,1,1,"['HTML', 'C++']",0,1483654136,1490013841
+100863,100863,1319024334,1319554371,OOB read in SVG at WebCore::parseArcFlag,,aohe...@gmail.com,Fixed,Low,['Blink'],,,1,1,,0,1319024334,-1
+721988,721988,1494643911,1494859142,Security: Heap-use-after-free in payments::`anonymous namespace'::SheetView::RequestFocus,,chromium...@gmail.com,Fixed,Medium,"['Blink>Payments', 'Blink']",,,1,0,['C++'],0,1494643911,1494859031
+157079,157079,1350869352,1356018749,"Security: Integer overflow in libwebp ""ParseOptionalChunks"" allows memory disclosure",,philip.t...@gmail.com,Fixed,Medium,['Internals'],,,1,1,['C'],0,1350869352,1351530614
+990841,990841,1565022341,1565117751,Security: Network Domain,,a_deleted_user,WontFix,,,,,1,0,,0,1565022341,-1
+371813,371813,1399644906,1399699863,Heap-use-after-free in content::ResourceDispatcher::RemovePendingRequest,,ClusterFuzz,Fixed,High,,,,0,0,,0,1399644906,1399699863
+1060769,1060769,1583962066,1583967689,Security: Google Translate XSS Bug ,,teche...@gmail.com,WontFix,,,,,1,0,,0,1583962066,-1
+138210,138210,1342770077,1344041200,Information and credential disclosure by file:// URLs (Android),,chaykin....@gmail.com,Fixed,Medium,['Internals'],,,1,1,,0,1342770077,1344041200
+411160,411160,1409894535,1415292822,Use-of-uninitialized-value in cc::GLRenderer::EnqueueTextureQuad,,ClusterFuzz,Fixed,Medium,,,,0,1,['C++'],0,1409894535,1415291987
+140495,137448,1342393683,1345187078,"Heap-buffer-overflow in void WTF::Vector<unsigned short, 1024ul>::append<unsigned short>",,infe...@chromium.org,Duplicate,Medium,"['Blink>Layout', 'Blink']",,,0,1,,0,1342393683,1356018748
+1290784,1290784,1643107069,1643122782,13087382882617*,,arsal...@hetbaken-vcpo.nl,WontFix,,,,,1,0,,0,1643107069,-1
+86821,86821,1308593688,1308593913,Possible to hijack user credentials through chrome extension,,a_deleted_user,WontFix,,,,,1,0,,0,1308593688,-1
+947342,947342,1553817929,1554908096,Security: heap-buffer-overflow TextureD3D_2DArray::getImage,,om...@krash.in,Fixed,Medium,"['Internals>GPU>ANGLE', 'Internals', 'Blink', 'Internals>GPU', 'Blink>WebGL']",CVE-2019-5836,Memory buffer bounds error,1,1,['C++'],0,1553817929,1554847880
+1038376,1038376,1577737352,1580247971,Use of read: URI from Chrome can run res:// which is an URI for IE,,proof131...@gmail.com,WontFix,High,"['UI>Browser', 'UI', 'UI>Browser>Navigation']",,,1,1,,0,1577737352,-1
+81278,81278,1304365595,1304366265,Flash content vulnerability (re) ,,schedd...@gmail.com,WontFix,,,,,1,0,,0,1304365595,-1
+791616,791616,1512410757,1512505751,Heap-use-after-free in fxcrt::UnownedPtr<CFX_XMLParser>::ProbeForLowSeverityLifetimeIssue,,ClusterFuzz,Verified,Low,"['Internals>Plugins>PDF', 'Internals>Plugins', 'Internals']",,,0,0,,0,1512410757,1512511489
+1031895,1031895,1575818249,1576089129,Security:  ReadableStream::pipeTo do not check IsLockedStream,,rapid....@gmail.com,Verified,Low,"['Blink>Network', 'Blink>Network>StreamsAPI', 'Blink']",CVE-2020-6416,Improper input validation,1,1,"['C++', 'JS']",0,1575818249,1576089128
+371237,371237,1399524387,1399698016,Heap-buffer-overflow in SkBitmapHeap::getBitmap,,ClusterFuzz,Fixed,Medium,"['Internals>Skia', 'Internals']",,,0,0,,0,1399524387,1399698016
+1187170,1187372,1615519785,1615548997,Crash in Builtins_LdaNamedPropertyHandler,,ClusterFuzz,Duplicate,High,"['Blink>JavaScript', 'Blink>JavaScript>Interpreter', 'Blink']",,,0,0,,0,1615485725,1615562548
+387808,387808,1403544769,1405615177,Use-of-uninitialized-value in _RGB_Blend,,ClusterFuzz,Fixed,Medium,"['Internals>Plugins>PDF', 'Internals>Plugins', 'Internals']",,,0,1,,0,1403544769,-1
+643665,643665,1472825615,1473196336,Crash inside SuperBlitter::blitH,,ClusterFuzz,Fixed,High,"['Internals>Skia', 'Internals>Skia>Compositing', 'Internals']",,,0,1,['C++'],0,1472825615,1473196336
+377101,377101,1400902878,1402088602,Security: HTML5 Sandbox Bypass using a regular link,,man...@caballero.com.ar,WontFix,Low,['Blink'],,,1,1,,0,1400902878,-1
+718977,718977,1494010691,1494072661,"Crash in v8::internal::ScavengingVisitor<1,1>::EvacuateObject<1,0>",,ClusterFuzz,Verified,Medium,"['Blink>JavaScript', 'Blink']",,,0,0,,0,1494010691,1494072661
+1016543,1016543,1571692869,1586215491,"Old, unsecure (and unused?) version of ChromeVox is present in Chromium repo",,lukasza@chromium.org,Fixed,High,"['OS>Accessibility', 'OS', 'OS>Accessibility>ChromeVox']",,,0,0,['JS'],0,1571692869,1571811394
+708145,708145,1491311432,1491359991,[qcms] Only accept valid input ranges when reading VCGT tag,,noel@chromium.org,Fixed,Medium,,,,0,1,['C'],0,1491311432,1491350278
+84452,84452,1306808089,1307120915,Bad cast in HTMLMediaElement::mediaControls,,martybar...@gmail.com,Fixed,High,['Blink'],CVE-2011-3238,Memory buffer bounds error,1,0,,0,1306808089,1307120915
+803431,803431,1516280587,1516282174,Remote File Inclusion on privacy.google.com,,aminasd...@gmail.com,WontFix,,,,,1,0,,0,1516280587,-1
+971757,971757,1559847194,1560004633,Crash in shaderc_spvc_compile_options::~shaderc_spvc_compile_options,,ClusterFuzz,Verified,Medium,"['Internals>GPU', 'Internals>GPU>Dawn', 'Internals']",,,0,0,,0,1559847194,1560004633
+983878,983878,1563135846,1563195228,Integer-overflow in blink::TableLayoutAlgorithmAuto::UpdateLayout,,ClusterFuzz,WontFix,,"['Blink>Layout', 'Blink']",,,0,1,,0,1563135846,-1
+787910,787910,1511378747,1511441450,Use-after-poison in parameter_count,,ClusterFuzz,Verified,High,"['Blink>JavaScript>Compiler', 'Blink>JavaScript', 'Blink']",,,0,0,"['C++', 'JS']",0,1511378747,1511440478
+1270005,1270005,1636784396,1643892710,Heap-buffer-overflow in flatbuffers::EscapeString,,serv...@oss-vdb.iam.gserviceaccount.com,Fixed,High,"['UI', 'UI>Browser', 'Platform>Extensions', 'Platform', 'Platform>Extensions>API', 'UI>Browser>Learning']",,,0,0,,0,1636784396,1639678446
+647602,649510,1474583246,1474687311,Heap-use-after-free in blink::LayoutTextFragment::setTextFragment,,ClusterFuzz,Duplicate,High,"['UI', 'UI>Accessibility', 'Blink', 'Blink>Layout', 'Blink>DOM']",,,0,0,['C++'],0,1474019100,1480581148
+1214458,1214458,1622301629,1630435135,cras_rclient_message_fuzzer: Null-dereference READ in audio_io_thread,,ClusterFuzz,WontFix,Low,,,,0,0,,0,1622301629,-1
+936346,936346,1551256906,1551368905,Crash in Ice::XNUMBER::InstImpl<struct Ice::XNUMBER::TargetX8664Traits>::InstX86Movd::emi,,ClusterFuzz,Verified,Medium,"['Internals>GPU>SwiftShader', 'Internals>GPU', 'Internals']",,,0,0,,0,1551256906,1551368905
+383777,388382,1403639900,1403671782,DOMException is thrown in WebCore::Range::checkNodeWOffset,,rhodovan...@partner.samsung.com,Duplicate,High,"['Blink>Layout', 'Blink>Editing', 'Blink']",,,1,1,['C++'],0,1402566307,1421183860
+939108,939108,1551913396,1563910223,Isolate chrome.google.com from *.google.com,,jun.k...@microsoft.com,Fixed,Low,"['Internals>Sandbox>SiteIsolation', 'Internals>Sandbox', 'Webstore', 'Internals']",,,1,1,['C++'],0,1551913396,1563239734
+653071,653071,1475669646,1484215393,Use-of-uninitialized-value in TIFFReadDirectoryCheckOrder,,ClusterFuzz,Verified,Medium,"['Internals>Plugins>PDF', 'Internals>Plugins', 'Internals']",,,0,0,,0,1475669646,1484215393
+638164,638164,1471342472,1476306742,Crash in base::UncheckedMalloc,,miau...@gmail.com,WontFix,Medium,"['Internals>Skia', 'Internals']",,,1,0,,0,1471342472,-1
+1126106,1126106,1599586818,1599586818,Security: ignore this,,agewi...@gmail.com,WontFix,,,,,1,0,,0,1599586818,-1
+1361986,1361986,1662740427,1662741699,Security: Revealing USER Info,,lijop...@gmail.com,WontFix,,,,,1,0,,0,1662740427,-1
+544981,544981,1445266947,1445957215,MSI version of Chrome 46.0.2490.71 m does NOT contain Flash 19.0.0.226 but still the vulnerable 19.0.0.207,,harrywes...@gmail.com,Verified,High,"['Internals>Plugins>Flash', 'Internals>Plugins', 'Internals', 'Enterprise']",,,1,1,,0,1445266947,1445957215
+156051,156051,1350375903,1356018723,"Heap use-after-free in ExtensionFunctionDispatcher::Dispatch caught by ASan when using ""Screen Capture by Google""",,glider@chromium.org,Fixed,,"['Platform>Extensions', 'Platform', 'Internals']",,,0,1,['C++'],0,1350375903,1351536940
+147438,147438,1347126275,1348861944,Heap-buffer-overflow in _swrast_write_rgba_span,,infe...@chromium.org,WontFix,High,"['Blink>WebGL', 'Internals', 'Blink']",,,0,0,,0,1347126275,-1
+84402,84402,1306726242,1308068356,Extensions permission elevevation using javascript: in homepage_url,,kuz...@gmail.com,Fixed,Low,,CVE-2011-2785,Improper input validation,1,1,['C++'],0,1306726242,1308068502
+511554,511554,1437213604,1437425884,Vulnerability reported in net-misc/curl-7.23.1-r1,,vomit.go...@appspot.gserviceaccount.com,Verified,,,,,0,0,,0,1437213604,1455241515
+877766,877766,1535204640,1535534625,Heap-use-after-free in fxcrt::UnownedPtr<unsigned char>::ProbeForLowSeverityLifetimeIssue,,ClusterFuzz,Verified,High,"['Internals>Plugins>PDF', 'Internals>Plugins', 'Internals']",,,0,0,,0,1535204640,1535492732
+991321,991321,1565123222,1567552628,Security: use-after-poison in  blink::VideoTrackRecorder::InitializeEncoder,,jonor...@microsoft.com,Verified,High,"['Blink>MediaRecording', 'Blink']",,,1,0,['C++'],0,1565123222,1567535440
+631050,631050,1469460015,1469648642,Crash in v8::internal::JSObject::UpdateAllocationSite,,ClusterFuzz,Fixed,Medium,"['Blink>JavaScript>GC', 'Blink>JavaScript', 'Blink']",,,0,0,['JS'],0,1468327950,1469621972
+1036272,1036272,1576843217,1577119414,CVE-2019-19523 CrOS: Vulnerability reported in Linux kernel,,vomit...@appspot.gserviceaccount.com,WontFix,,,CVE-2019-19523,Expired pointer dereference,0,0,,0,1576843217,-1
+714086,714086,1492772584,1492798845,Security: Location redirect with cookie data,,valentin...@gmail.com,WontFix,,,,,1,0,,0,1492772584,-1
+1202430,1202430,1619299687,1622856067,tint_bound_array_accessors_fuzzer: Timeout in tint_bound_array_accessors_fuzzer,,ClusterFuzz,Verified,,"['Internals>GPU', 'Internals', 'Internals>GPU>Tint']",,,0,0,,0,1619299687,1622856067
+997543,997543,1566777483,1568393283,Security: javascript scheme is accessible at chrome IOS,,hackeron...@gmail.com,WontFix,Low,"['Mobile', 'UI', 'Mobile>iOSWeb>Security', 'UI>Browser', 'Mobile>iOSWeb', 'UI>Browser>Navigation']",,,1,1,,0,1566777483,-1
+353888,455175,1423049092,1423089720,Manage Passwords Unprotected ,,sumeethp...@gmail.com,Duplicate,,,,,1,0,,0,1395200904,-1
+177620,177620,1361511892,1364864393,Heap-use-after-free in WebCore::HTMLMediaElement::~HTMLMediaElement,,chama...@gmail.com,Fixed,High,['Blink'],CVE-2013-2846,Resource management error,1,1,,0,1361511892,1364864393
+745844,745844,1500395189,1500464072,CHECK failure: !field_type->NowStable() || field_type->NowContains(value) || (!FLAG_use_allocat,,ClusterFuzz,Fixed,High,"['Blink>JavaScript', 'Blink']",,,0,0,"['C++', 'JS']",0,1500395189,1500464072
+54794,54794,1283934676,1284402017,HTML5 Workers run outside of the sandbox,,scarybea...@gmail.com,Fixed,High,['Internals'],,,0,1,['C++'],0,1283934676,1284402017
+1323950,1323950,1652135001,1652158692,Memory corruption in Google Chrome,,ryanb...@gmail.com,WontFix,,,,,1,0,,0,1652135001,-1
+173781,173781,1359761971,1360016215,"Heap-buffer-overflow in void std::__introsort_loop<WebCore::GridTrack**, long, bool",,aarya@google.com,Fixed,Medium,['Blink'],,,0,0,,0,1359761971,1360016215
+1133983,1133983,1601526213,1601586328,Security: UaF in printing::PrintRenderFrameHelper::PreviewPageRendered(),,chrom...@gmail.com,Verified,High,"['UI>Browser', 'UI>Browser>PrintPreview', 'UI']",CVE-2020-15993,Expired pointer dereference,1,1,['C++'],0,1601526213,1601673077
+1043333,1043333,1579300993,1579623987,CrOS: Vulnerability reported in net-analyzer/tcpdump,,vomit.go...@appspot.gserviceaccount.com,WontFix,,,CVE-2018-14879,Memory buffer bounds error,0,0,,0,1579300993,-1
+891667,891667,1538568018,1538580870,CVE-2017-18344 CrOS: Vulnerability reported in Linux kernel,,vomit...@appspot.gserviceaccount.com,WontFix,Low,,CVE-2017-18344,Memory buffer bounds error,0,0,,0,1538568018,-1
+972552,972552,1560168540,1560190811,Does the 75.0.3770.80_74.0.3729.169_chrome_updater.exe file contain the EncPK-HJ virus?,,daveocon...@gmail.com,WontFix,,,,,1,0,,0,1560168540,-1
+1150065,1150065,1605644705,1607455132,UaF in AudioHandler::ProcessIfNecessary,,m...@semmle.com,Fixed,High,"['Blink>WebAudio', 'Blink']",CVE-2021-21114,Expired pointer dereference,1,1,['C++'],0,1605644705,1607455132
+1279820,1279820,1639492526,1639530370,Use-after-free in WakeLock::ContextDestroyed,,h1exc...@gmail.com,WontFix,High,"['Blink>WakeLock', 'Blink']",,,1,0,,0,1639492526,-1
+676884,676884,1482586777,1483610584,Heap-buffer-overflow in GrTextUtils::DrawBmpPosText,,ClusterFuzz,Verified,Medium,"['Internals>Skia', 'Internals']",,,0,0,,0,1482586777,1483610584
+1060549,1060549,1583928057,1584726996,Security: PDFium heap-use-after-free in CPDFXFA_Page::GetNextXFAAnnot (XFA),,myoki...@gmail.com,Fixed,High,"['Internals>Plugins>PDF', 'Internals>Plugins', 'Internals']",,,1,0,['C++'],0,1583928057,1584726996
+1006923,1006923,1569268589,1569389195,Security: Arbitrary URL Spoofing via Canonical URL Field,,gnay.na...@gmail.com,WontFix,,"['UI>Browser', 'UI>Browser>Sharing', 'UI']",,,1,0,,0,1569268589,-1
+29932,29932,1260399246,1261025427,Security: Websockets - malformed URL freezes browser,,mario.he...@gmail.com,Fixed,Low,,,,1,1,['C++'],0,1260399246,1261542982
+656314,656935,1476788391,1476996893,Heap-use-after-free in blink::ScrollAnchor::save,,ClusterFuzz,Duplicate,High,"['Blink>Scroll', 'Blink']",,,0,0,['C++'],0,1476543641,1476917339
+786278,786278,1510897844,1510992812,Crash in v8::internal::FreeList::Allocate,,ClusterFuzz,Verified,High,"['Blink>JavaScript>GC', 'Blink>JavaScript', 'Blink']",,,0,1,,0,1510897844,1510992812
+104011,104011,1321103505,1321397819,v8_i18n::BCP47ToICUFormat() - crash,,slaw...@gmail.com,Fixed,High,"['Blink>JavaScript', 'Blink']",,,1,1,,0,1321103505,1321397169
+127311,127311,1336512406,1336624531,Security: chrome.exe access violation for Shockwave Flash plugin crash,,enrig...@gmail.com,WontFix,,,,,1,0,,0,1336512406,-1
+159229,159229,1351889756,1352947768,Security: Integer overflow in remoting viewer AudioDecoderOpus::Decode,,aedla@chromium.org,Fixed,High,"['Internals', 'Services', 'Services>Chromoting']",,,0,0,['C++'],0,1351889756,1352947768
+285769,285769,1378392567,1378406361,Security: virus Qv06 in my google inicial page,,peconsta...@yahoo.com,WontFix,,,,,1,0,,0,1378392567,-1
+1030699,1030699,1575473502,1575477346,jdjdj,,joko...@beachwoodstudents.org,WontFix,,,,,1,0,,0,1575473502,-1
+722756,722756,1494925319,1495114851,Type Confusion In Chrome Lead to RCE ,,soulchen...@gmail.com,Fixed,High,"['Blink>JavaScript>Compiler', 'Blink>JavaScript', 'Blink']",CVE-2017-5070,Access of Resource Using Incompatible Type ('Type Confusion') ,1,1,['JS'],1,1494925319,1495114851
+1041186,1041186,1578740233,1578943262,dwa,,gmjamext...@gmail.com,WontFix,,,,,1,0,,0,1578740233,-1
+69216,69216,1294731890,1294777268,Invalid ogv file causes segfault in thread.cc,,chama...@gmail.com,WontFix,,,,,1,0,,0,1294731890,-1
+421130,445306,1419828559,1419907357,Heap-use-after-free in blink::Element::setAttribute,,ClusterFuzz,Duplicate,High,['Blink'],,,0,0,"['HTML', 'C++']",0,1412704212,1419573200
+911253,914673,1544675269,1544729773,Heap-buffer-overflow in exprCodeBetween,,ClusterFuzz,Duplicate,High,"['Internals>Storage', 'Internals']",,,0,0,['C'],0,1543869824,1547310132
+947784,947784,1553942278,1554304569,Use-of-uninitialized-value in cc::PaintImageBuilder::TakePaintImage,,ClusterFuzz,Verified,Medium,"['UI', 'UI>GFX', 'Internals', 'Internals>Compositing']",,,0,0,,0,1553942278,1554304569
+1266771,1266771,1636027228,1642532228,CrOS: Vulnerability reported in app-editors/vim,,vomit...@appspot.gserviceaccount.com,Fixed,Low,"['OS', 'OS>Packages']",CVE-2021-3903,Heap-based Buffer Overflow,0,0,,0,1636027228,1641858367
+166324,166324,1355594649,1357425052,Heap-use-after-free in WebCore::RenderBlock::insertIntoTrackedRendererMaps,,infe...@chromium.org,Fixed,High,"['Blink>Layout', 'Blink']",,,0,1,,0,1355594649,1357425052
+895026,895055,1539397263,1539405505,Heap-use-after-free in PDF_DataDecode,,ClusterFuzz,Duplicate,Low,"['Internals>Plugins>PDF', 'Internals>Plugins', 'Internals']",,,0,0,['C++'],0,1539386490,1539422386
+33324,33324,1264633665,1264707652,New windows opened within ChromeFrame in full tab mode don't use the host network stack,,ananta@chromium.org,Fixed,Low,,,,0,0,"['HTML', 'C++']",0,1264633665,1264707652
+71283,71283,1296328572,1296330318,Security: The extensions permissions do not allow you to specify a specific port for XMLHttpRequest,,alexandr...@gmail.com,WontFix,,,,,1,0,,0,1296328572,-1
+1166500,1166500,1610604365,1618241774,Known vulnerability detected in third_party/unrar,,serv...@oss-vdb.iam.gserviceaccount.com,Fixed,Medium,"['Services>Safebrowsing', 'Services']",,,0,1,['C++'],0,1610604365,1612212667
+813155,813155,1518810163,1525338656,Heap-use-after-free in fxcrt::UnownedPtr<CFX_XMLNode>::ProbeForLowSeverityLifetimeIssue,,ClusterFuzz,Verified,Low,"['Internals>Plugins>PDF', 'Internals>Plugins', 'Internals']",,,0,0,['C++'],0,1518810163,1523311100
+908749,908749,1543305444,1543483464,Security: WebGL heap-buffer-overflow in clearBufferuiv(),,hemida...@gmail.com,Verified,Medium,"['Blink>WebGL', 'Internals>GPU', 'Internals', 'Blink']",CVE-2019-5770,Memory buffer bounds error,1,1,"['C++', 'Python']",0,1543305444,1543463417
+1029129,1029129,1574888684,1575225132,Crash in cc::LayerTreeImpl::TotalScrollOffset,,ClusterFuzz,Verified,Medium,"['Internals', 'Internals>Compositing']",,,0,0,['C++'],0,1574888684,1575147198
+1008632,1008771,1569569949,1569626004,Check error in FeedbackNexus::GetKeyedAccessStoreMode(),,chenmout...@gmail.com,Duplicate,High,"['Blink>JavaScript', 'Blink']",,,1,0,"['C++', 'JS']",0,1569537707,1569870010
+66684,66684,1292239570,1292683750,Security: Java applets can steal focus to a tab running in the background,,clements...@gmail.com,WontFix,,,,,1,0,,0,1292239570,-1
+667695,667936,1479855738,1479864570,Heap-buffer-overflow in table,,ClusterFuzz,Duplicate,Medium,"['Internals>Skia', 'Internals']",,,0,0,['C++'],0,1479805208,1479851110
+943662,943662,1553020764,1553110117,Security: Private IP disclosure,,dafina2a...@gmail.com,WontFix,,,,,1,0,,0,1553020764,-1
+915293,915293,1544812034,1544817802,Heap-use-after-free in content::RenderFrameImpl::CommitNavigation,,ClusterFuzz,Verified,High,"['Internals>Core', 'Internals']",,,0,0,,0,1544812034,1544817802
+509775,509775,1436815241,1436858652,Remove unused jump_elimination_allowed parameter to Assembler::branch_offset(),,hablich@chromium.org,Fixed,,"['Blink>JavaScript', 'Blink']",,,0,0,,0,1436815241,1436858652
+928061,928061,1549163012,1549388127,Heap-use-after-free in v8::internal::wasm::BackgroundCompileTask::RunInternal,,ClusterFuzz,Verified,High,"['Blink>JavaScript>WebAssembly', 'Blink>JavaScript', 'Blink']",,,0,0,,0,1549163012,1549388127
+1145024,1145024,1604382253,1616022764,"Security&UI: WPA2-Enterprise/EAP WiFi Connection ""Default"" UI Discrepancy",,hugoh...@gmail.com,Fixed,Medium,"['OS>Systems>Network>General', 'OS', 'OS>Systems>Network', 'OS>Systems']",CVE-2021-21212,,1,1,['JS'],0,1604382253,1615077844
+497576,497576,1433716773,1448968974,UNKNOWN in v8::internal::ArrayConcatVisitor::ToArray,,ClusterFuzz,Fixed,Low,"['Blink>JavaScript', 'Blink']",,,0,0,,0,1433716773,1448968974
+851821,851821,1528780755,1539292074,Security: Chrome PDF reader has no restrictions/user confirmation on URI action,,shenegam...@gmail.com,Fixed,Low,,CVE-2018-20065,Improper input validation,1,1,"['HTML', 'C++']",0,1440026064,1538602349
+551460,551460,1446654474,1446676521,Stack-buffer-overflow in CPDF_Function::Call,,ClusterFuzz,Fixed,High,"['Internals>Plugins>PDF', 'Internals>Plugins', 'Internals']",,,0,1,,0,1446654474,1446676521
+330222,330222,1387557535,1388761014,UNKNOWN in TIntermSymbol::TIntermSymbol,,ClusterFuzz,Fixed,High,"['Internals>GPU', 'Internals']",,,0,1,,0,1387557535,1388761014
+827288,827288,1522351006,1554251854,Disallow JavaScript in chrome.tabs.update(),,taviso@google.com,Fixed,,"['Platform>Extensions', 'Platform', 'Platform>Extensions>API']",,,0,0,"['XML', 'HTML', 'C++', 'JS']",0,1522351006,1538075340
+1193393,1193393,1616998939,1617028548,Problemas de privacidad,,arqui...@ecoarqtec.com,WontFix,,,,,1,0,,0,1616998939,-1
+986081,986081,1563669325,1563819664,Security: ,,14.s...@gmail.com,WontFix,,,,,1,0,,0,1563669325,-1
+1036270,1036270,1576843210,1576885811,CVE-2019-18660 CrOS: Vulnerability reported in Linux kernel,,vomit...@appspot.gserviceaccount.com,WontFix,,,CVE-2019-18660,Exposure of sensitive information,0,0,,0,1576843210,-1
+127522,127522,1336634670,1356018722,"Security: Chrome Allows ""Carpet Bomb"" from File Download",,m...@m-austin.com,Fixed,Low,,CVE-2012-2847,Resource management error,1,1,['C++'],0,1312770877,1337095898
+1330584,1330584,1654009990,1654014913,DCHECK failure in !IsCleared() in tagged-impl-inl.h,,ClusterFuzz,Verified,High,"['Blink>JavaScript', 'Blink']",,,0,0,['C++'],0,1654009990,1654014913
+1194959,1194959,1617278410,1624603505,CrOS: Vulnerability reported in app-arch/tar,,vomit...@appspot.gserviceaccount.com,Fixed,Medium,"['OS', 'OS>Security']",CVE-2021-20193,Memory buffer bounds error,0,1,,0,1617278410,1621354496
+471000,471001,1427402254,1427403943,UNKNOWN in v8::internal::Invoke,,decoder...@gmail.com,Duplicate,High,,,,1,1,,0,1427402227,1427403737
+705912,705912,1490694755,1490820688,Use-of-uninitialized-value in CFX_WideString::ReleaseBuffer,,ClusterFuzz,Fixed,Medium,"['Internals>Plugins>PDF', 'Internals>Plugins', 'Internals']",,,0,0,,0,1490694755,1490820688
+799100,799100,1515089080,1515147168,"Use-of-uninitialized-value in blink::PODRedBlackTree<blink::PODInterval<blink::LayoutUnit, blink::LayoutMultiC",,ClusterFuzz,Verified,Medium,['Platform'],,,0,0,,0,1515089080,1515147168
+668970,668970,1480324569,1480396865,"Security: Debugger API exposes UA shadow trees, and can cause bad-casts",,tkent@chromium.org,Fixed,High,"['Blink>Media', 'Blink>HTML', 'Blink', 'Blink>Forms', 'Blink>Media>Controls']",,,0,1,['C++'],0,1480324569,1480396865
+101065,101065,1319142691,1321551432,Use after free with counters and inline-table and :before content,,infe...@chromium.org,Fixed,High,['Blink'],,,0,1,,0,1319142691,1337117567
+160080,160080,1352399800,1362000977,Security: URL addresses are still in memory even after closing private tabs,,cberna...@gmail.com,WontFix,,,,,1,0,,0,1352399800,-1
+808341,808341,1517557603,1518276434,Use-of-uninitialized-value in blink::LayoutObject::MaybeClearIsScrollAnchorObject,,ClusterFuzz,Verified,Medium,"['Blink>Layout', 'Blink']",,,0,0,['C++'],0,1517557603,1517620397
+933179,933179,1550520231,1550676467,DCHECK failure in old_map_->is_stable() in map-updater.cc,,ClusterFuzz,Verified,High,"['Blink>JavaScript', 'Blink']",,,0,0,"['C++', 'JS']",0,1550520231,1550603150
+354297,354335,1395298945,1395449056,UNKNOWN in WebCore::Document::settings,,ClusterFuzz,Duplicate,Medium,"['Blink>Animation', 'Blink']",,,0,1,"['HTML', 'C++']",0,1395283356,1395414773
+63360,63360,1289935347,1289946536,Tab crashes and also crashes other tabs if they are clicked in the meantime (and weren't opened before),,fam....@live.nl,WontFix,,,,,1,0,,0,1289935347,-1
+1299261,1299261,1645365783,1647473762,Security: [ANGLE] Heap overflow read in vk::IndexBuffer::getIndexBuffers,,ggabu...@gmail.com,Fixed,High,"['Internals>GPU>SwiftShader', 'Internals>GPU', 'Internals>GPU>ANGLE', 'Internals']",CVE-2022-1478,Expired pointer dereference,1,0,['C++'],0,1645365783,1647473762
+917668,917668,1545632388,1545885729,Security: Cross Domain Bug of Indexeddb Database,,wykco...@gmail.com,Fixed,High,"['Internals>Sandbox>SiteIsolation', 'Internals>Sandbox', 'Blink>Storage', 'Internals', 'Blink', 'Blink>Storage>IndexedDB']",CVE-2019-5773,Improper input validation,1,1,,0,1545632388,1545885730
+203586,203586,1316128825,1316128825,Security: Sept 15 2011 Flash 0-day,,jimhebert@chromium.org,Verified,,"['Internals>Plugins>Flash', 'Internals>Plugins', 'Internals', 'Blink']",,,0,0,,1,1316128825,1317063508
+780780,780780,1509620409,1510668321,CrOS: Vulnerability reported in net-misc/curl,,vomit.go...@appspot.gserviceaccount.com,Fixed,Medium,,,,0,1,,0,1509620409,1510611674
+499789,499789,1434114771,1434438966,Heap-use-after-free in v8::internal::JSTypedArray::MaterializeArrayBuffer,,ClusterFuzz,Fixed,High,"['Blink>JavaScript', 'Blink']",,,0,0,,0,1434114771,1434438966
+374055,374055,1400209618,1400505541,Security: long mailto URLs crash with sad face,,soeren.b...@gmail.com,WontFix,,,,,1,0,,0,1400209618,-1
+910850,910850,1543672767,1543695871,CHECK failure: size <= elements()->length() || elements() == ReadOnlyRoots(isolate).empty_fixed,,ClusterFuzz,Verified,High,"['Blink>JavaScript', 'Blink']",,,0,0,,0,1543672767,1543695871
+1192552,1192552,1616673040,1618511453,heap-use-after-free : views::HWNDMessageHandler::OnDisplayChange,,crash...@system.gserviceaccount.com,Fixed,High,"['Internals>Views>Desktop', 'Internals>Views', 'Internals>Aura', 'Internals']",,,0,1,['C++'],0,1616673040,1618511105
+1314908,1314908,1649481480,1651091681,Security: Heap-use-after-free in remote_cocoa::NativeWidgetNSWindowBridge::SetVisibilityState,,chrom...@gmail.com,Fixed,High,"['UI>Browser', 'UI']",CVE-2022-1634,Expired pointer dereference,1,0,['C++'],0,1649481480,1651091681
+71114,71114,1296166106,1297287467,Stale pointer due to table childs incorrect added,,martybar...@gmail.com,Fixed,High,['Blink'],,,1,1,,0,1296166106,-1
+1305720,1305720,1647103326,1647292728,Putin.doog website opened after relaunch update.,,dress...@gmail.com,WontFix,,,,,1,0,,0,1647103326,-1
+750430,750430,1501324047,1502683411,Heap-buffer-overflow in xmlStrndup,,ClusterFuzz,Verified,Medium,"['Blink>XML', 'Blink']",,,0,0,"['M4', 'C']",0,1501324047,1502714752
+800025,800025,1515438995,1515573238,Heap-use-after-free in blink::ShapeOutsideInfo::IsEnabledFor,,ClusterFuzz,Verified,High,"['Blink>Layout', 'Blink']",,,0,1,"['HTML', 'C++']",0,1515438995,1515531730
+1069984,1069984,1586583349,1586813048,ما اريد فشاير او مقاطع اباحية,,ma727...@gmail.com,WontFix,,,,,1,0,,0,1586583349,-1
+697534,697534,1488394193,1488448863,Crash in v8::internal::JSArrayBufferView::WasNeutered,,ClusterFuzz,Verified,Medium,"['Blink>JavaScript', 'Blink']",,,0,0,,0,1488394193,1488448863
+644120,644120,1473097734,1474048943,Pinning bypass UI shows as secure,,davidcad...@gmail.com,WontFix,Low,,,,1,1,,0,1473097734,-1
+915455,915455,1544865283,1548957483,Crash in spirv_cross::Compiler::traverse_all_reachable_opcodes,,ClusterFuzz,Verified,Medium,"['Internals>GPU', 'Internals>GPU>Dawn', 'Internals']",,,0,0,,0,1544865283,1548957483
+462234,560517,1448319293,1448864394,Crash in wholeText,,ClusterFuzz,Duplicate,,"['Blink>DOM', 'Blink']",,,0,0,,0,1424966057,-1
+761622,761622,1504359788,1506934125,"Security: Video streams sourced from cross-origin videos aren't tainted	",,maartenb...@gmail.com,Fixed,Medium,"['Blink>SecurityFeature', 'Blink>Media', 'Blink>Media>Video', 'Blink>SecurityFeature>SameOriginPolicy', 'Blink', 'Blink>CaptureFromElement']",,,1,0,['C++'],0,1504359788,1506934125
+1009499,1009499,1569861895,1569887394,Security: Visible credit card data,,tghilar...@gmail.com,WontFix,,,,,1,0,,0,1569861895,-1
+863623,863623,1531523788,1532105318,Security: Blob URL created from Data URL shares same process despite creator being cross-site,,s.h.h...@gmail.com,Fixed,Medium,"['Internals>Sandbox>SiteIsolation', 'Internals>Sandbox', 'Internals']",CVE-2018-16074,Improper access control,1,1,['C++'],0,1531523788,1531965147
+406142,406142,1408661725,1408748801,Heap-buffer-overflow in CFX_WideString::FromUTF16LE,,ClusterFuzz,Fixed,Medium,"['Internals>Plugins>PDF', 'Internals>Plugins', 'Internals']",,,0,0,,0,1408661725,1408748801
+704560,704560,1490281975,1490655204,Security: Form field validation bubbles can appear over the wrong tab,,chromium...@gmail.com,Fixed,Medium,"['Blink>Forms', 'Blink>Forms>Validation', 'Blink']",CVE-2017-5065,Improper input validation,1,1,['C++'],0,1490281975,1490655204
+724021,724021,1495105207,1495141521,CrOS: Vulnerability reported in Linux kernel,,vomit...@appspot.gserviceaccount.com,Archived,High,,,,0,1,,0,1495105207,1495229770
+57302,57302,1285781394,1286550284,Security: raw cookies access is not revoked from renderer when DevTools front-end is closed,,caseq@chromium.org,Fixed,,"['Platform', 'Internals', 'Platform>DevTools']",,,0,0,['C++'],0,1285781394,1286545871
+568027,568027,1449652272,1449767258,HSTS in example.com does not added if 301 redirect,,v.badal...@open-bs.ru,WontFix,,,,,1,0,,0,1449652272,-1
+981635,981635,1562434351,1562857969,Bus in _platform_memmove$VARIANT$Nehalem,,ClusterFuzz,Verified,,,,,0,0,,0,1562434351,1562857969
+743106,743106,1500054884,1500365377,Global-buffer-overflow in SkImageInfo::unflatten,,ClusterFuzz,Verified,High,"['Internals>Skia', 'Internals']",,,0,0,['C++'],0,1500054884,1500303562
+1009563,1009563,1569868232,1571332636,ec_cr50_fuzzer: Use-of-uninitialized-value in uint64divmod,,ClusterFuzz,WontFix,Medium,,,,0,0,,0,1569868232,1571332635
+346004,346004,1393057834,1393269362,HTTP response can overwrite cookie with secure flag,,dawid.cz...@gmail.com,WontFix,,,,,1,0,,0,1393057834,-1
+1202736,1202446,1619312492,1619714290,v8_wasm_compile_fuzzer: Fatal error in ,,ClusterFuzz,Duplicate,High,"['Blink>JavaScript>WebAssembly', 'Blink>JavaScript', 'Blink']",,,0,0,['JS'],0,1619312492,1619544847
+310136,310136,1382450631,1382463019,Security: DIRECTROY LISTING,,singhgaj...@gmail.com,WontFix,,,,,1,0,,0,1382450631,-1
+717891,717891,1493798163,1493885122,Ill in v8::internal::ParserBase<v8::internal::Parser>::ParseClassPropertyDefinition,,ClusterFuzz,Verified,High,"['Blink>JavaScript', 'Blink']",,,0,0,,0,1493783839,1493885122
+1196480,1196480,1617754917,1621555634,Security: Multiple Bugs in WebP,,pasca...@gmail.com,Fixed,High,"['Internals>Media>Codecs', 'Internals', 'Internals>Media']",,,1,0,['C'],0,1617754917,1621555633
+812512,812512,1518678537,1518685492,Use-of-uninitialized-value in sk_store_a8,,nordi...@gmail.com,Verified,Low,"['Internals>Skia', 'Internals']",,,1,0,,0,1518678537,1518685492
